@@ -39,6 +39,6 @@ vignettes/*.pdf
 .Renviron
 
 .DS_Store
-Thumbs.db 
+Thumbs.db
 /public/
 /resources/
