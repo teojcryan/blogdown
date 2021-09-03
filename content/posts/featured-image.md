@@ -1,6 +1,5 @@
 ---
-authors:
-- Example Author
+authors: ryan-teo
 categories:
 - themes
 date: "2020-05-26"

@@ -8,6 +8,10 @@ title: Ryan Teo # Website name
 baseurl: 'https://teojcryan.com/' # Website URL
 copyright: '© {year} Ryan Teo' # Footer text, e.g. '© {year} Me'
 
+params:
+  author: Nikola Tesla
+  description: Tesla's Awesome Hugo Site
+
 ############################
 ## LANGUAGE
 ############################
@@ -29,7 +33,7 @@ summaryLength: 75
 # googleAnalytics: UA-123-45
 
 permalinks:
-  authors: '/author/:slug/'
+#  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   series: '/series-type/:slug/'

@@ -1,8 +1,8 @@
 ---
 title: Ryan Teo
-avatar: avatar.png
-bio: My research interests include infectious disease modelling, statistical learning, and biostatistics.
 role: BSc (Hons) Statistics
+bio: My research interests include infectious disease modelling, statistical learning, and biostatistics.
+avatar: images/avatar.png
 organization:
   name: National University of Singapore
   url: https://www.nus.edu.sg/
@@ -16,17 +16,17 @@ social:
     header: true
 - icon: linkedin
   iconPack: fab
-  link: https://www.linkedin.com/in/teojcryan
+  url: https://www.linkedin.com/in/teojcryan
 - icon: twitter
   iconPack: fab
   label: Follow me on Twitter
-  link: https://twitter.com/teojcryan
+  url: https://twitter.com/teojcryan
 # - icon: graduation-cap
 #   icon_pack: fas
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#   url: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   iconPack: fab
-  link: https://github.com/teojcryan
+  url: https://github.com/teojcryan
 superuser: true
 ---
 

@@ -18,7 +18,8 @@
             {{ $iconPack := .iconPack | default .icon_pack }}
             {{/*  Deprecation warning(v1.0.0) ends  */}}
             {{ $src :=  print $iconPack " fa-" .icon }}
-            <a href="{{ .Permalink }}" class="mr-1">
+            <!-- replaced {{ .Permalink }} on line 22 to {{ .url }} -->
+            <a href="{{ .url }}" class="mr-1">
                 <i class="{{ print $src }}"></i>
             </a>
             {{ end }}

@@ -1,22 +1,33 @@
 ---
-title: Example Author
-draft: false
-role: Example Role
-avatar: images/icon.png
-bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
+draft: true
+title: Ryan Teo
+role: BSc (Hons) Statistics
+bio: My research interests include infectious disease modelling, statistical learning, and biostatistics.
+avatar: images/avatar.png
 organization:
-  name: Example Organization
-  url: https://example.com/
+  name: National University of Singapore
+  url: https://www.nus.edu.sg/
+email: ""
+
 social:
-  - icon: envelope
-    iconPack: fas
-    url: mailto:example@example.com
-  - icon: twitter
-    iconPack: fab
-    url: https://example.com/
-  - icon: github
-    iconPack: fab
-    url: https://example.com/
+# - icon: envelope
+#   icon_pack: fas
+#   link: /#contact
+- display:
+    header: true
+- icon: linkedin
+  iconPack: fab
+  url: https://www.linkedin.com/in/teojcryan
+- icon: twitter
+  iconPack: fab
+  label: Follow me on Twitter
+  url: https://twitter.com/teojcryan
+# - icon: graduation-cap
+#   icon_pack: fas
+#   url: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: github
+  iconPack: fab
+  url: https://github.com/teojcryan
 
 weight: 1
 widget:
@@ -43,21 +54,8 @@ widget:
     attachment: 
 ---
 
-## Self Introduction
+## About Me
 
-Cras ex dui, tristique a libero eget, consectetur semper ligula. Nunc augue arcu, malesuada a nisi et, molestie finibus metus. Sed lacus odio, ultricies a nisl vitae, sollicitudin tempor ipsum. Vivamus quis feugiat arcu. Sed mi nunc, efficitur quis tellus vitae, posuere mattis metus. Phasellus in mattis dui. Nullam blandit, augue non ullamcorper dapibus, lacus dui molestie massa, in iaculis purus lectus eu lectus. Duis hendrerit lacinia tellus, sit amet feugiat dolor placerat id. Aenean ac velit massa. Vivamus feugiat dui at magna viverra, ut dictum nunc rutrum. Duis eget sapien finibus, lobortis orci id, vestibulum tellus. Maecenas lobortis urna libero, quis fermentum lectus lobortis nec. Nullam laoreet volutpat libero, ac mattis magna ullamcorper quis. Duis eget ipsum eu nisi mattis cursus et vitae turpis.
+Ryan Teo graduated from the National University of Singapore in 2021 with a BSc in Statistics (Specialisation in Data Science) and minors in Public Health and Geographical Information Systems. His honours project focused on using concepts from seroepidemiology and methods from spatial statistics to predict population susceptibility to dengue over space and time in Singapore.
 
-Aliquam pretium diam eget leo feugiat finibus. Donec malesuada commodo ipsum. Aenean a massa in lacus venenatis vestibulum. Duis vel sem quis elit iaculis consectetur et quis dolor. Morbi eu ipsum hendrerit, malesuada ante sed, dapibus est. Suspendisse feugiat nulla ut gravida convallis. Phasellus id massa posuere, rhoncus justo ut, porttitor dolor. Nulla ultrices malesuada egestas. Nunc fermentum tincidunt sem ac vulputate. Donec mollis sollicitudin justo eget varius. Donec ornare velit et felis blandit, id molestie sapien lobortis. Morbi eget tristique justo. Mauris posuere, nibh eu laoreet ultricies, ligula erat iaculis sapien, vel dapibus lacus libero ut diam. Etiam viverra ante felis, et scelerisque nunc pellentesque vitae. Praesent feugiat dictum molestie.
-
-## Details  
-
-Nunc pellentesque vitae:
-- Morbi accumsan nibh efficitur diam molestie, non dignissim diam facilisis.
-- Donec dignissim leo in mollis faucibus.
-- Donec blandit lacus a pellentesque fermentum.
-
-Donec mollis sollicitudin:
-- Nunc dictum purus ornare purus consectetur, eu pellentesque massa ullamcorper.
-- Aliquam eu leo vitae justo aliquam tincidunt.
-- Fusce non massa id augue interdum feugiat sed et nulla.
-- Vivamus molestie augue in tristique laoreet.
+During his time at NUS, Ryan was also a resident of [Residential College 4](https://rc4.nus.edu.sg/), where he was trained in System Dynamics. He also served as the Research Director for the [NUS Public Health Interest Group](https://nusphsoc.wixsite.com/nusphsoc).
