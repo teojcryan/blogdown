@@ -1,7 +1,5 @@
 ---
-authors:
-- Hugo Authors
-- Example Author
+authors: ryan-teo
 categories: null
 date: "2019-03-09"
 description: Lorem Ipsum Dolor Si Amet

@@ -1,6 +1,5 @@
 ---
-authors:
-- Hugo Authors
+authors: ryan-teo
 categories:
 - themes
 - syntax
