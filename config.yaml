@@ -33,7 +33,7 @@ summaryLength: 75
 # googleAnalytics: UA-123-45
 
 permalinks:
-#  authors: '/author/:slug/'
+  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   series: '/series-type/:slug/'
