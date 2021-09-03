@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 math: true
 
-paginate: 3
+paginate: 5
 enableEmoji: true
 enableGitInfo: false
 enableRobotsTXT: true
