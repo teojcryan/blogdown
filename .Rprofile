@@ -19,7 +19,7 @@ options(
   blogdown.method = 'markdown',
   blogdown.author = "Ryan Teo",
   blogdown.ext = ".Rmd",
-  blogdown.subdir = "post",
+  blogdown.subdir = "posts",
   blogdown.yaml.empty = TRUE,
   blogdown.new_bundle = TRUE
 )
