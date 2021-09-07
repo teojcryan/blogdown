@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Ryan Teo
 role: MSc Mathematics of Systems
 bio: I am a current MSc student at the Mathematics for Real-World Systems Centre for Doctoral Training at the University of Warwick.
