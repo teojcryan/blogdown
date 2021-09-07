@@ -21,7 +21,7 @@ publisherLogo:
 site_type: Person
 local_business_type: ''
 org_name: ''
-description: ''
+description: 'Statistics undergraduate from the National University of Singapore'
 twitter: 'teojcryan'
 
 highlight:
@@ -40,7 +40,7 @@ highlight:
 
 math: 
   handler: katex
-   
+    
   # katex:
   #   # Browse https://katex.org/docs/options.html to see the options available.
   #   # KaTeX's Auto-render ignores `displayMode` property of the options, so this property will not work.
