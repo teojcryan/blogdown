@@ -2,7 +2,7 @@
 title: Posts
 draft: false
 # Section you want to display
-section: post
+section: posts
 # Pages count
 count: 3
 # Options: card, plain and masonry.
