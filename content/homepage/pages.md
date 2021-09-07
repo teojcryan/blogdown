@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Recent Posts
 draft: false
 # Section you want to display
 section: posts
