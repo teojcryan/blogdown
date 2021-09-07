@@ -68,19 +68,19 @@ Geographically Weighted Regression (GWR) is a spatial statistical method for mod
 
 Geographically and Temporally Weighted Regression (GTWR) extends the GWR model by capturing spatio-temporal heterogeneity based on a weighting matrix referencing both spatial and temporal dimensions. The general structure of the GTWR model is as follows:
 
-$$ PM_{2.5} = \beta_0(u_i,v_i,t_i) + AOD_i\times\beta_1(u_i,v_i,t_i)+P_i\times\beta_2(u_i,v_i,t_i)+ T_i\times\beta_3(u_i,v_i,t_i)+RH_i\times\beta_4(u_i,v_i,t_i)+WS_i\times\beta_5(u_i,v_i,t_i)+ NDVI_i\times\beta_6(u_i,v_i,t_i)+DEM_i\times\beta_7(u_i,v_i,t_i)+\varepsilon_i $$
+`$$ \begin{equation}     \begin{split} PM_{2.5} =& \beta_0(u_i,v_i,t_i) + AOD_i\times\beta_1(u_i,v_i,t_i)+P_i\times\beta_2(u_i,v_i,t_i)+\\ &T_i\times\beta_3(u_i,v_i,t_i)+RH_i\times\beta_4(u_i,v_i,t_i)+WS_i\times\beta_5(u_i,v_i,t_i)+\\ &NDVI_i\times\beta_6(u_i,v_i,t_i)+DEM_i\times\beta_7(u_i,v_i,t_i)+\varepsilon_i    \end{split} \end{equation} $$`
 
-where $PM_{2.5i}$ refers to the daily surface PM<sub>2.5</sub> concentration of sample $i$ at location $\left(u_i,v_i\right)$ on day $t_i$; $\beta_0$ denotes the intercepts at location $\left(u_i,v_i\right)$ on day $t_i$; and $\beta_1-\beta_7$ are the location-time-specfic slopes for combined AOD, interpolated atmospheric pressure, surface temperature, relative humidity, windspeed, aggregated NDVI and DEM respectively.
+where `$PM_{2.5i}$` refers to the daily surface PM<sub>2.5</sub> concentration of sample `$i$` at location `$\left(u_i,v_i\right)$` on day `$t_i$`; `$\beta_0$` denotes the intercepts at location `$\left(u_i,v_i\right)$` on day `$t_i$`; and `$\beta_1-\beta_7$` are the location-time-specfic slopes for combined AOD, interpolated atmospheric pressure, surface temperature, relative humidity, windspeed, aggregated NDVI and DEM respectively.
 
 The fitted regression coefficients can be expressed as:
 
-$$\hat{\beta}_i(u_i,v_i,t_i)=[X^\top W(u_i,v_i,t_i)X]^{-1}X^\top W(u_i,v_i,t_i)Y$$
+`$$\hat{\beta}_i(u_i,v_i,t_i)=[X^\top W(u_i,v_i,t_i)X]^{-1}X^\top W(u_i,v_i,t_i)Y$$`
 
-To estimate the intercept of $\beta_0\left(u_i,v_i,t_i\right)$ and the slopes of $\beta_i\left(u_i,v_i,t_i\right)$ for each variable, the weight matrix $W$ is introduced to account for the extent of spatial and temporal influence of sample $j$ to the estimated parameters of sample $i$. For the purposes of this study, $W$ was calculated with bi-square kernel function.
+To estimate the intercept of `$\beta_0\left(u_i,v_i,t_i\right)$` and the slopes of `$\beta_i\left(u_i,v_i,t_i\right)$` for each variable, the weight matrix `$W$` is introduced to account for the extent of spatial and temporal influence of sample `$j$` to the estimated parameters of sample `$i$`. For the purposes of this study, `$W$` was calculated with bi-square kernel function.
 
 ## Results
 
-The implementation of GTWR in Python 3.7 with an adaptive kernel of 50 neighbouring stations returned a final model with Akaike Information Criteria (AIC) value of 7.24 and $R^2$ of 80.8. This suggests that the model has a high degree of explanatory power, and is able to model PM<sub>2.5</sub> concentrations with a reasonable level of accuracy. Monthly average PM<sub>2.5</sub> maps with a 1km grid over the study region were derived using the GTWR model. The PM<sub>2.5</sub> values were calculated by averaging over three periodically spaced days with sufficiently high AOD coverage.
+The implementation of GTWR in Python 3.7 with an adaptive kernel of 50 neighbouring stations returned a final model with Akaike Information Criteria (AIC) value of 7.24 and `$R^2$` of 80.8. This suggests that the model has a high degree of explanatory power, and is able to model PM<sub>2.5</sub> concentrations with a reasonable level of accuracy. Monthly average PM<sub>2.5</sub> maps with a 1km grid over the study region were derived using the GTWR model. The PM<sub>2.5</sub> values were calculated by averaging over three periodically spaced days with sufficiently high AOD coverage.
 
 <img src="images/fig2.jpg" style="width:100.0%" />
 <center>
