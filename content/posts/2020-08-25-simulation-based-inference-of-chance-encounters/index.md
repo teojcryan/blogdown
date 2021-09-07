@@ -1,6 +1,6 @@
 ---
 title: Simulation-based Inference of Chance Encounters
-author: Ryan Teo
+authors: Ryan Teo
 date: '2020-08-25'
 slug: simulation-based-inference-of-chance-encounters
 categories: []
@@ -8,7 +8,6 @@ tags: []
 description: ~
 toc: yes
 summary: 'A simulation study on 1-1 interactions in social networking'
-authors: []
 series: []
 lastmod: '2021-09-07T08:35:33+08:00'
 featuredVideo: ~
