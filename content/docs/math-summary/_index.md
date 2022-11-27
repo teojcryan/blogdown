@@ -1,5 +1,5 @@
 ---
-title: Example Doc
+title: Math Summary
 description: This is an example doc layout of Eureka theme
 toc: true
 authors:

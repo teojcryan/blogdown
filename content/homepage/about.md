@@ -1,12 +1,12 @@
 ---
 draft: false
 title: Ryan Teo
-role: MSc Mathematics of Systems
-bio: I am a current MSc student at the Mathematics for Real-World Systems Centre for Doctoral Training at the University of Warwick.
+role: Political Affairs Intern
+bio: I am currently interning at the UN, supporting the Biological Weapons Convention. I am interested in the application of statistical modelling and other computational approaches to health security.
 avatar: images/avatar.png
 organization:
-  name: University of Warwick
-  url: https://warwick.ac.uk/
+  name: United Nations Office for Disarmament Affairs
+  url: https://www.un.org/disarmament/
 email: ""
 
 social:
@@ -56,8 +56,7 @@ widget:
 
 ## About Me
 
-I graduated from the [National University of Singapore](https://www.nus.edu.sg/) in 2021 with a BSc (Hons) in Statistics (Specialisation in Data Science) and minors in Public Health and Geographical Information Systems. My honours project focused on using serological data to predict population susceptibility to dengue over space and time in Singapore.
-
-During my time at NUS, I was also a resident of [Residential College 4](https://rc4.nus.edu.sg/), where I was trained in System Dynamics. I also served as the Research Director for the [NUS Public Health Society](https://nusphsoc.wixsite.com/nusphsoc). I also completed internships in the public sector, industry, and academic settings.
+I graduated from the University of Warwick in 2022 with a MSc Mathematics of Systems, where my MSc thesis focused on nowcasting COVID-19 incidence in England. Prior to that,
+I received a BSc (Hons) in Statistics (Specialisation in Data Science) and minors in Public Health and Geographical Information Systems from the National University of Singapore. My honours project focused on using serological data to predict population susceptibility to dengue over space and time in Singapore.
 
 My research interests include infectious disease modelling, statistical learning, and biostatistics. In particular, I am keen on applying mathematical modelling to improve pandemic preparedness and outbreak response.

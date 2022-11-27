@@ -1,14 +1,14 @@
 ---
-authors: null
-categories: null
-date: "2020-10-16"
-description: Chapter 1 of example doc
-draft: false
-lastmod: "2020-10-16"
-series: null
-tags: null
 title: Chapter 1
+description: Chapter 1 of example doc
 toc: true
+authors:
+tags:
+categories:
+series:
+date: '2020-10-16'
+lastmod: '2020-10-16'
+draft: false
 ---
 
 This is chapter 1 of nested chapter.
